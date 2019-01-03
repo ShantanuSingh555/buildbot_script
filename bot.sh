@@ -17,7 +17,7 @@ echo -e;
 sendMessage "Starting build $ROMM for $DEBICE"
 
 #start build
-lunch $ROMM\_$DEBICE-userdebug | tee lunch.log
+lunch $ROMM_$DEBICE-userdebug | tee lunch.log
 # catch lunch error
 if [ $? -eq 0 ]
 then
